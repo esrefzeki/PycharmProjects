@@ -204,7 +204,7 @@ v.min()
 
 import pandas as pd
 
-df = pd.read_csv('datasets/titanic.csv')
+df = pd.read_csv('datasets/titanic.csv') # Data okuma
 type(df)
 
 df.head()

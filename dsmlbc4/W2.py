@@ -28,7 +28,7 @@ import pandas as pd
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
 
-# Numerical Python
+# Numerical Python (Numpy)
 # Bilimsel hesaplamalar için kullanılır.
 # Arrayler / çok boyutlu arrayler ve matrisler üzerinde yüksek performanslı çalışma imkanı sağlar.
 # Temelleri 1995’te (matrix-sig, Guido Van Rossum) atılmış nihai olarak 2005 (Travis Oliphant) yılında hayata geçmiştir.

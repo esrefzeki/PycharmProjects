@@ -150,7 +150,7 @@ notes[0] = 99
 
 dir(names)
 names.append("MVK")
-names.pop(0)
+names.pop(0) # .pop Silme işlemi
 
 ###############################################
 # DICTIONARY
@@ -311,7 +311,6 @@ all_calculation(10, 90, 87, 10)
 
 
 def all_calculation(varm, moisture, charge, p):
-    say_hi()
     a = calculate(varm, moisture, charge)
     b = standardization(a, p)
     print(b * 10)
@@ -487,7 +486,7 @@ students = ["John", "Mark", "Venessa", "Mariam"]
 for student in students:
     print(student.upper())
 
-for index, student in enumerate(students):
+for index, student in enumerate(students): # enumerate(sıralanacak_deger, baslangıc_sayısı) formülünden anlayacağınız üzere başlangıç sayısını belirtebiliyoruz.
     print(index, student)
 
 A = []
