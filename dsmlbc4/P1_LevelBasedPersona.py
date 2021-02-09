@@ -1,7 +1,7 @@
 # Created and coded by Esref Zeki PARLAK
 
 """
-PROJE 1 / İkinci Hafta
+PROJE 1 / Birinci Hafta
 ----------------------------
 LEVEL BASED PERSONA PROJESİ
 ----------------------------

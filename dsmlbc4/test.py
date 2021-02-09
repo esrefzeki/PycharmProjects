@@ -12,5 +12,3 @@ for col in df.columns:
     print(df[col].value_counts())
 
 df.head()
-
-# TESTING FOR GITHUB
