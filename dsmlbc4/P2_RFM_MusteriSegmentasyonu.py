@@ -101,7 +101,8 @@ df["Invoice"].nunique()
 df = df[~df["Invoice"].str.contains("C", na=False)]  # ~ Tilda işareti mevcut işlemin tersini almamızı sağlar
 df["TotalPrice"] = df["Quantity"] * df["Price"]
 df.sort_values("TotalPrice", ascending=False)
-
+ax = df[df.totalprice == 7]
+ax
 # >>>>> SORU-1: NEDEN 'SeriesGroupBy' object has no attribute 'sort_values' HATASI ALIYORUZ?
 # >>>>> SORU-2: InvoiceNo'ları bir arada derleyip toplam fiyatına göre sıralamak istediğimizde ne yapıyoruz?
 # df.groupby("InvoiceNo").agg("TotalPrice").sort_values("UnitPrice", ascending=False).head()
